@@ -1,0 +1,1590 @@
+2024-08-02 00:08:10 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:08:10 - Starting MedicApiApplication using Java 17.0.12 with PID 5228 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:08:10 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:08:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:08:10 - Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:08:11 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:08:11 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:08:11 - Starting service [Tomcat]
+2024-08-02 00:08:11 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:08:11 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:08:11 - Root WebApplicationContext: initialization completed in 1262 ms
+2024-08-02 00:08:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:08:11 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:08:11 - HHH000026: Second-level cache disabled
+2024-08-02 00:08:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:08:11 - HikariPool-1 - Starting...
+2024-08-02 00:08:12 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7254838
+2024-08-02 00:08:12 - HikariPool-1 - Start completed.
+2024-08-02 00:08:12 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:08:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:08:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:08:13 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:08:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:08:14 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:08:14 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:08:14 - Started MedicApiApplication in 4.461 seconds (process running for 4.995)
+2024-08-02 00:08:24 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:08:24 - Starting MedicApiApplication using Java 17.0.12 with PID 9460 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:08:24 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:08:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:08:24 - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:08:25 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:08:25 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:08:25 - Starting service [Tomcat]
+2024-08-02 00:08:25 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:08:25 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:08:25 - Root WebApplicationContext: initialization completed in 1290 ms
+2024-08-02 00:08:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:08:25 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:08:25 - HHH000026: Second-level cache disabled
+2024-08-02 00:08:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:08:26 - HikariPool-1 - Starting...
+2024-08-02 00:08:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f402027
+2024-08-02 00:08:26 - HikariPool-1 - Start completed.
+2024-08-02 00:08:26 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:08:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:08:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:08:27 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:08:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:08:28 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:08:28 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:08:28 - Started MedicApiApplication in 4.303 seconds (process running for 4.752)
+2024-08-02 00:09:18 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:09:18 - Starting MedicApiApplication using Java 17.0.12 with PID 7996 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:09:18 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:09:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:09:18 - Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:09:19 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:09:19 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:09:19 - Starting service [Tomcat]
+2024-08-02 00:09:19 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:09:19 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:09:19 - Root WebApplicationContext: initialization completed in 1299 ms
+2024-08-02 00:09:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:09:19 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:09:19 - HHH000026: Second-level cache disabled
+2024-08-02 00:09:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:09:20 - HikariPool-1 - Starting...
+2024-08-02 00:09:20 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eb9c575
+2024-08-02 00:09:20 - HikariPool-1 - Start completed.
+2024-08-02 00:09:20 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:09:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:09:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:09:21 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:09:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:09:21 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:09:22 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:09:22 - Started MedicApiApplication in 4.182 seconds (process running for 4.615)
+2024-08-02 00:12:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:12:10 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:12:10 - Completed initialization in 2 ms
+2024-08-02 00:12:11 - URI: [POST] /api/signup | Headers: {content-type=application/json}
+2024-08-02 00:12:11 - Exception: 
+java.lang.NullPointerException: Cannot invoke "java.util.List.stream()" because the return value of "org.lion.medicapi.dto.request.SignUpRequestV2.getSupplementTypes()" is null
+	at org.lion.medicapi.ApiService.signUp(ApiService.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.signUp(<generated>)
+	at org.lion.medicapi.ApiController.signUp(ApiController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:16:04 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:16:05 - Starting MedicApiApplication using Java 17.0.12 with PID 15112 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:16:05 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:16:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:16:05 - Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:16:06 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:16:06 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:16:06 - Starting service [Tomcat]
+2024-08-02 00:16:06 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:16:06 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:16:06 - Root WebApplicationContext: initialization completed in 1360 ms
+2024-08-02 00:16:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:16:06 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:16:06 - HHH000026: Second-level cache disabled
+2024-08-02 00:16:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:16:06 - HikariPool-1 - Starting...
+2024-08-02 00:16:07 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c226095
+2024-08-02 00:16:07 - HikariPool-1 - Start completed.
+2024-08-02 00:16:07 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:16:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:16:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:16:08 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:16:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:16:08 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:16:08 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:16:08 - Started MedicApiApplication in 4.199 seconds (process running for 4.639)
+2024-08-02 00:17:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:17:03 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:17:03 - Completed initialization in 1 ms
+2024-08-02 00:17:03 - URI: [POST] /api/signup | Headers: {content-type=application/json}
+2024-08-02 00:17:34 - URI: [POST] /api/signup | Headers: {content-type=application/json}
+2024-08-02 00:17:34 - HttpMessageNotReadableException: 
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('∞¸¿˝º÷∑Áº« ∫∏Ω∫¿£∏Ææ∆ 7')
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('∞¸¿˝º÷∑Áº« ∫∏Ω∫¿£∏Ææ∆ 7')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 8, column: 24] (through reference chain: org.lion.medicapi.dto.request.SignUpRequestV2["supplementTypes"])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1754)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1379)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.handleNonArray(StringCollectionDeserializer.java:286)
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:194)
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:184)
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 51 common frames omitted
+2024-08-02 00:18:39 - URI: [POST] /api/signup | Headers: {content-type=application/json}
+2024-08-02 00:18:53 - URI: [POST] /api/signup | Headers: {content-type=application/json}
+2024-08-02 00:18:53 - HttpMessageNotReadableException: 
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): expected a value
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 9, column: 1]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2648)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:685)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2717)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1098)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:406)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 51 common frames omitted
+2024-08-02 00:19:04 - URI: [POST] /api/signup | Headers: {content-type=application/json}
+2024-08-02 00:19:20 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:19:27 - URI: [POST] /api/logout | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:19:29 - ApiException: 
+org.lion.medicapi.exception.ApiException: ººº«¿ª √£¿ª ºˆ æ¯Ω¿¥œ¥Ÿ.
+	at org.lion.medicapi.interceptor.AuthInterceptor.preHandle(AuthInterceptor.java:14)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:19:35 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:19:40 - URI: [POST] /api/users/tags | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Headers: {content-type=application/json}
+2024-08-02 00:19:40 - ApiException: 
+org.lion.medicapi.exception.ApiException: ¿Ø¿˙∞° «ÿ¥Á ≈¬±◊∏¶ ∞°¡ˆ∞Ì ¿÷¡ˆ æ Ω¿¥œ¥Ÿ.
+	at org.lion.medicapi.ApiService.addTag(ApiService.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.addTag(<generated>)
+	at org.lion.medicapi.ApiController.addTag(ApiController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:20:29 - URI: [DELETE] /api/users/tags | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Headers: {content-type=application/json}
+2024-08-02 00:20:32 - URI: [POST] /api/users/tags | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Headers: {content-type=application/json}
+2024-08-02 00:21:34 - URI: [GET] /api/products | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Parameters: {sort=review,highprice,lowprice}
+2024-08-02 00:21:34 - Exception: 
+java.lang.NullPointerException: Cannot read field "value" because "anotherString" is null
+	at java.base/java.lang.String.compareTo(String.java:2017)
+	at org.lion.medicapi.ApiService.lambda$listAllProducts$6(ApiService.java:172)
+	at java.base/java.util.TimSort.binarySort(TimSort.java:296)
+	at java.base/java.util.TimSort.sort(TimSort.java:239)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at org.lion.medicapi.ApiService.listAllProducts(ApiService.java:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.listAllProducts(<generated>)
+	at org.lion.medicapi.ApiController.listAllProducts(ApiController.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:21:38 - URI: [GET] /api/products | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Parameters: {sort=review}
+2024-08-02 00:21:42 - URI: [GET] /api/products | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Parameters: {sort=highprice}
+2024-08-02 00:21:49 - URI: [GET] /api/products | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Parameters: {sort=lowprice}
+2024-08-02 00:21:55 - URI: [GET] /api/products | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:21:55 - Exception: 
+java.lang.NullPointerException: Cannot read field "value" because "anotherString" is null
+	at java.base/java.lang.String.compareTo(String.java:2017)
+	at org.lion.medicapi.ApiService.lambda$listAllProducts$6(ApiService.java:172)
+	at java.base/java.util.TimSort.binarySort(TimSort.java:296)
+	at java.base/java.util.TimSort.sort(TimSort.java:239)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at org.lion.medicapi.ApiService.listAllProducts(ApiService.java:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.listAllProducts(<generated>)
+	at org.lion.medicapi.ApiController.listAllProducts(ApiController.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:23:04 - URI: [GET] /api/products/custom | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Parameters: {sort=review}
+2024-08-02 00:23:07 - URI: [GET] /api/products/custom | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:23:07 - Exception: 
+java.lang.NullPointerException: Cannot read field "value" because "anotherString" is null
+	at java.base/java.lang.String.compareTo(String.java:2017)
+	at org.lion.medicapi.ApiService.lambda$listCustomProducts$11(ApiService.java:208)
+	at java.base/java.util.TimSort.binarySort(TimSort.java:296)
+	at java.base/java.util.TimSort.sort(TimSort.java:221)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at org.lion.medicapi.ApiService.listCustomProducts(ApiService.java:208)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.listCustomProducts(<generated>)
+	at org.lion.medicapi.ApiController.listCustomProducts(ApiController.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:23:29 - URI: [GET] /api/products/custom | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:23:29 - Exception: 
+java.lang.NullPointerException: Cannot read field "value" because "anotherString" is null
+	at java.base/java.lang.String.compareTo(String.java:2017)
+	at org.lion.medicapi.ApiService.lambda$listCustomProducts$11(ApiService.java:208)
+	at java.base/java.util.TimSort.binarySort(TimSort.java:296)
+	at java.base/java.util.TimSort.sort(TimSort.java:221)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at org.lion.medicapi.ApiService.listCustomProducts(ApiService.java:208)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.listCustomProducts(<generated>)
+	at org.lion.medicapi.ApiController.listCustomProducts(ApiController.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:23:46 - URI: [GET] /api/products/custom | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Parameters: {sort=review}
+2024-08-02 00:23:49 - URI: [GET] /api/products/custom | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Parameters: {sort=highprice}
+2024-08-02 00:27:41 - URI: [GET] /api/products | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:27:42 - Exception: 
+java.lang.NullPointerException: Cannot read field "value" because "anotherString" is null
+	at java.base/java.lang.String.compareTo(String.java:2017)
+	at org.lion.medicapi.ApiService.lambda$listAllProducts$6(ApiService.java:172)
+	at java.base/java.util.TimSort.binarySort(TimSort.java:296)
+	at java.base/java.util.TimSort.sort(TimSort.java:239)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at org.lion.medicapi.ApiService.listAllProducts(ApiService.java:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.listAllProducts(<generated>)
+	at org.lion.medicapi.ApiController.listAllProducts(ApiController.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:28:10 - URI: [GET] /api/products/best | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:28:34 - URI: [GET] /api/products/recommend | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:29:04 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:29:04 - Starting MedicApiApplication using Java 17.0.12 with PID 19080 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:29:04 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:29:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:29:05 - Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:29:05 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:29:05 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:29:05 - Starting service [Tomcat]
+2024-08-02 00:29:05 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:29:05 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:29:05 - Root WebApplicationContext: initialization completed in 1274 ms
+2024-08-02 00:29:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:29:05 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:29:05 - HHH000026: Second-level cache disabled
+2024-08-02 00:29:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:29:06 - HikariPool-1 - Starting...
+2024-08-02 00:29:06 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50bf795f
+2024-08-02 00:29:06 - HikariPool-1 - Start completed.
+2024-08-02 00:29:06 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:29:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:29:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:29:07 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:29:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:29:08 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:29:08 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:29:08 - Started MedicApiApplication in 4.405 seconds (process running for 4.884)
+2024-08-02 00:31:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:31:10 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:31:10 - Completed initialization in 1 ms
+2024-08-02 00:31:10 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:31:13 - URI: [GET] /api/products | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:31:16 - URI: [GET] /api/products/custom | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:31:25 - URI: [GET] /api/products/best | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:31:27 - URI: [GET] /api/products/recommend | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]}
+2024-08-02 00:32:36 - URI: [POST] /api/signup | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Headers: {content-type=application/json}
+2024-08-02 00:32:37 - ApiException: 
+org.lion.medicapi.exception.ApiException: ¡ﬂ∫πµ» ¿Ã∏ﬁ¿œ¿‘¥œ¥Ÿ.
+	at org.lion.medicapi.ApiService.signUp(ApiService.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.lion.medicapi.ApiService$$SpringCGLIB$$0.signUp(<generated>)
+	at org.lion.medicapi.ApiController.signUp(ApiController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 00:32:43 - URI: [POST] /api/signup | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Headers: {content-type=application/json}
+2024-08-02 00:32:49 - URI: [POST] /api/login | Session: {userId=3, userName=tester, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠, ∞¸¿˝_ª¿∞«∞≠]} | Headers: {content-type=application/json}
+2024-08-02 00:32:56 - URI: [GET] /api/products/recommend | Session: {userId=8, userName=test6, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:33:05 - URI: [GET] /api/products/recommend | Session: {userId=8, userName=test6, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:41:23 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:41:23 - Starting MedicApiApplication using Java 17.0.12 with PID 18888 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:41:23 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:41:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:41:24 - Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:41:24 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:41:24 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:41:24 - Starting service [Tomcat]
+2024-08-02 00:41:24 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:41:25 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:41:25 - Root WebApplicationContext: initialization completed in 1218 ms
+2024-08-02 00:41:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:41:25 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:41:25 - HHH000026: Second-level cache disabled
+2024-08-02 00:41:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:41:25 - HikariPool-1 - Starting...
+2024-08-02 00:41:25 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50bf795f
+2024-08-02 00:41:25 - HikariPool-1 - Start completed.
+2024-08-02 00:41:25 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:41:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:41:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:41:26 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:41:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:41:27 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:41:27 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:41:27 - Started MedicApiApplication in 4.134 seconds (process running for 4.535)
+2024-08-02 00:42:04 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:42:05 - Starting MedicApiApplication using Java 17.0.12 with PID 16100 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:42:05 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:42:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:42:05 - Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:42:06 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:42:06 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:42:06 - Starting service [Tomcat]
+2024-08-02 00:42:06 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:42:06 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:42:06 - Root WebApplicationContext: initialization completed in 1245 ms
+2024-08-02 00:42:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:42:06 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:42:06 - HHH000026: Second-level cache disabled
+2024-08-02 00:42:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:42:06 - HikariPool-1 - Starting...
+2024-08-02 00:42:06 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29fcfc54
+2024-08-02 00:42:06 - HikariPool-1 - Start completed.
+2024-08-02 00:42:07 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:42:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:42:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:42:08 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:42:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:42:08 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:42:08 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:42:08 - Started MedicApiApplication in 4.102 seconds (process running for 4.507)
+2024-08-02 00:42:24 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:42:24 - Starting MedicApiApplication using Java 17.0.12 with PID 8336 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:42:24 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:42:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:42:25 - Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:42:25 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:42:25 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:42:25 - Starting service [Tomcat]
+2024-08-02 00:42:25 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:42:25 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:42:25 - Root WebApplicationContext: initialization completed in 1323 ms
+2024-08-02 00:42:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:42:26 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:42:26 - HHH000026: Second-level cache disabled
+2024-08-02 00:42:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:42:26 - HikariPool-1 - Starting...
+2024-08-02 00:42:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eb9c575
+2024-08-02 00:42:26 - HikariPool-1 - Start completed.
+2024-08-02 00:42:26 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:42:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:42:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:42:27 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:42:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:42:28 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:42:28 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:42:28 - Started MedicApiApplication in 4.148 seconds (process running for 4.591)
+2024-08-02 00:42:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:42:34 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:42:34 - Completed initialization in 0 ms
+2024-08-02 00:42:34 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:42:39 - URI: [GET] /api/products/recommend | Session: {userId=8, userName=test6, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:43:04 - URI: [GET] /api/products/recommend | Session: {userId=8, userName=test6, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:45:33 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:45:33 - Starting MedicApiApplication using Java 17.0.12 with PID 16596 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:45:33 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:45:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:45:34 - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:45:34 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:45:34 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:45:34 - Starting service [Tomcat]
+2024-08-02 00:45:34 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:45:34 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:45:34 - Root WebApplicationContext: initialization completed in 1311 ms
+2024-08-02 00:45:35 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:45:35 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:45:35 - HHH000026: Second-level cache disabled
+2024-08-02 00:45:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:45:35 - HikariPool-1 - Starting...
+2024-08-02 00:45:35 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29fcfc54
+2024-08-02 00:45:35 - HikariPool-1 - Start completed.
+2024-08-02 00:45:35 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:45:36 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:45:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:45:36 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:45:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:45:37 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:45:37 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:45:37 - Started MedicApiApplication in 4.245 seconds (process running for 4.682)
+2024-08-02 00:45:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:45:54 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:45:54 - Completed initialization in 0 ms
+2024-08-02 00:45:54 - URI: [POST] /api/signup | Headers: {content-type=application/json}
+2024-08-02 00:46:02 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:46:06 - URI: [GET] /api/products/recommend | Session: {userId=9, userName=test2, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:48:24 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:48:24 - Starting MedicApiApplication using Java 17.0.12 with PID 17972 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:48:24 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:48:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:48:25 - Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:48:25 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:48:25 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:48:25 - Starting service [Tomcat]
+2024-08-02 00:48:25 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:48:25 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:48:25 - Root WebApplicationContext: initialization completed in 1243 ms
+2024-08-02 00:48:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:48:26 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:48:26 - HHH000026: Second-level cache disabled
+2024-08-02 00:48:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:48:26 - HikariPool-1 - Starting...
+2024-08-02 00:48:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29fcfc54
+2024-08-02 00:48:26 - HikariPool-1 - Start completed.
+2024-08-02 00:48:26 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:48:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:48:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:48:27 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:48:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:48:28 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:48:28 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:48:28 - Started MedicApiApplication in 4.059 seconds (process running for 4.486)
+2024-08-02 00:48:32 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:48:32 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:48:32 - Completed initialization in 0 ms
+2024-08-02 00:48:32 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:48:39 - URI: [GET] /api/products/recommend | Session: {userId=9, userName=test2, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:48:39 - User found: test2
+2024-08-02 00:48:39 - User supplement types: [∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7, ±¬πŸµ_ƒ´∏£¥œ∆æ_1000]
+2024-08-02 00:48:39 - Recommended product for ∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7: ∞¸¿˝∆»∆»
+2024-08-02 00:48:39 - Searching for product by name: ∞¸¿˝∆»∆»
+2024-08-02 00:48:39 - Product not found for name: ∞¸¿˝∆»∆»
+2024-08-02 00:48:39 - Recommended product for ±¬πŸµ_ƒ´∏£¥œ∆æ_1000: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:48:39 - Searching for product by name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:48:39 - Product not found for name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:48:39 - Recommended products for user test2: []
+2024-08-02 00:50:48 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:50:48 - Starting MedicApiApplication using Java 17.0.12 with PID 16020 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:50:48 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:50:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:50:49 - Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:50:50 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:50:50 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:50:50 - Starting service [Tomcat]
+2024-08-02 00:50:50 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:50:50 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:50:50 - Root WebApplicationContext: initialization completed in 1288 ms
+2024-08-02 00:50:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:50:50 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:50:50 - HHH000026: Second-level cache disabled
+2024-08-02 00:50:50 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:50:50 - HikariPool-1 - Starting...
+2024-08-02 00:50:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c226095
+2024-08-02 00:50:51 - HikariPool-1 - Start completed.
+2024-08-02 00:50:51 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:50:51 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:50:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:50:52 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:50:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:50:52 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:50:52 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:50:52 - Started MedicApiApplication in 4.118 seconds (process running for 4.545)
+2024-08-02 00:50:55 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:50:55 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:50:55 - Completed initialization in 1 ms
+2024-08-02 00:50:55 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:51:02 - URI: [GET] /api/products/recommend | Session: {userId=9, userName=test2, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:51:02 - User found: test2
+2024-08-02 00:51:02 - User supplement types: [∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7, ±¬πŸµ_ƒ´∏£¥œ∆æ_1000]
+2024-08-02 00:51:02 - Recommended product for ∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7: ∞¸¿˝∆»∆»
+2024-08-02 00:51:02 - Searching for product by name: ∞¸¿˝∆»∆»
+2024-08-02 00:51:02 - Product not found for name: ∞¸¿˝∆»∆»
+2024-08-02 00:51:02 - Recommended product for ±¬πŸµ_ƒ´∏£¥œ∆æ_1000: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:51:02 - Searching for product by name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:51:02 - Product not found for name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:51:02 - Recommended products for user test2: []
+2024-08-02 00:52:45 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:52:45 - Starting MedicApiApplication using Java 17.0.12 with PID 17404 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:52:45 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:52:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:52:46 - Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:52:47 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:52:47 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:52:47 - Starting service [Tomcat]
+2024-08-02 00:52:47 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:52:47 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:52:47 - Root WebApplicationContext: initialization completed in 1350 ms
+2024-08-02 00:52:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:52:47 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:52:47 - HHH000026: Second-level cache disabled
+2024-08-02 00:52:47 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:52:47 - HikariPool-1 - Starting...
+2024-08-02 00:52:48 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eb9c575
+2024-08-02 00:52:48 - HikariPool-1 - Start completed.
+2024-08-02 00:52:48 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:52:48 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:52:48 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:52:49 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:52:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:52:49 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:52:49 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:52:49 - Started MedicApiApplication in 4.349 seconds (process running for 4.784)
+2024-08-02 00:52:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:52:54 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:52:54 - Completed initialization in 1 ms
+2024-08-02 00:52:54 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:52:56 - URI: [GET] /api/products/recommend | Session: {userId=9, userName=test2, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:52:56 - User found: test2
+2024-08-02 00:52:56 - User supplement types: [∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7, ±¬πŸµ_ƒ´∏£¥œ∆æ_1000]
+2024-08-02 00:52:56 - Recommended product for ∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7: ∞¸¿˝∆»∆»
+2024-08-02 00:52:56 - Searching for product by name: ∞¸¿˝∆»∆»
+2024-08-02 00:52:56 - Product not found for name: ∞¸¿˝∆»∆»
+2024-08-02 00:52:56 - Recommended product for ±¬πŸµ_ƒ´∏£¥œ∆æ_1000: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:52:56 - Searching for product by name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:52:56 - Product not found for name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:52:56 - Recommended products for user test2: []
+2024-08-02 00:55:51 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:55:51 - Starting MedicApiApplication using Java 17.0.12 with PID 19424 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:55:51 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:55:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:55:52 - Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:55:53 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:55:53 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:55:53 - Starting service [Tomcat]
+2024-08-02 00:55:53 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:55:53 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:55:53 - Root WebApplicationContext: initialization completed in 1278 ms
+2024-08-02 00:55:53 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:55:53 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:55:53 - HHH000026: Second-level cache disabled
+2024-08-02 00:55:53 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:55:53 - HikariPool-1 - Starting...
+2024-08-02 00:55:53 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fac18dc
+2024-08-02 00:55:53 - HikariPool-1 - Start completed.
+2024-08-02 00:55:53 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:55:54 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:55:54 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:55:54 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:55:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:55:55 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:55:55 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:55:55 - Started MedicApiApplication in 4.155 seconds (process running for 4.605)
+2024-08-02 00:56:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:56:08 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:56:08 - Completed initialization in 2 ms
+2024-08-02 00:56:08 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:56:10 - URI: [GET] /api/products/recommend | Session: {userId=9, userName=test2, userTags=[±‚æÔ∑¬_∞≥º±, ««∫Œ∞«∞≠]}
+2024-08-02 00:56:10 - User found: test2
+2024-08-02 00:56:10 - User supplement types: [∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7, ±¬πŸµ_ƒ´∏£¥œ∆æ_1000]
+2024-08-02 00:56:10 - Recommended product for ∞¸¿˝º÷∑Áº«_∫∏Ω∫¿£∏Ææ∆_7: ∞¸¿˝∆»∆»
+2024-08-02 00:56:10 - Searching for product by name: ∞¸¿˝∆»∆»
+2024-08-02 00:56:10 - Product not found for name: ∞¸¿˝∆»∆»
+2024-08-02 00:56:10 - Recommended product for ±¬πŸµ_ƒ´∏£¥œ∆æ_1000: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:56:10 - Searching for product by name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:56:10 - Product not found for name: ∫£∑Ø ¥ŸøÓ«Õ
+2024-08-02 00:56:10 - Recommended products for user test2: []
+2024-08-02 00:57:04 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:57:04 - Starting MedicApiApplication using Java 17.0.12 with PID 8224 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:57:04 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:57:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:57:05 - Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:57:06 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:57:06 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:57:06 - Starting service [Tomcat]
+2024-08-02 00:57:06 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:57:06 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:57:06 - Root WebApplicationContext: initialization completed in 1295 ms
+2024-08-02 00:57:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:57:06 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:57:06 - HHH000026: Second-level cache disabled
+2024-08-02 00:57:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:57:06 - HikariPool-1 - Starting...
+2024-08-02 00:57:06 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22aee519
+2024-08-02 00:57:06 - HikariPool-1 - Start completed.
+2024-08-02 00:57:07 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:57:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:57:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:57:08 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:57:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:57:08 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:57:08 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:57:08 - Started MedicApiApplication in 4.256 seconds (process running for 4.719)
+2024-08-02 00:57:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:57:17 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:57:17 - Completed initialization in 1 ms
+2024-08-02 00:57:17 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:57:22 - URI: [GET] /api/products/recommend | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]}
+2024-08-02 00:57:22 - User found: test2
+2024-08-02 00:57:22 - User supplement types: [Í¥ÄÏ†àÏÜîÎ£®ÏÖò_Î≥¥Ïä§Ïõ∞Î¶¨ÏïÑ_7, ÍµøÎ∞îÎîî_Ïπ¥Î•¥ÎãàÌã¥_1000]
+2024-08-02 00:57:22 - Recommended product for Í¥ÄÏ†àÏÜîÎ£®ÏÖò_Î≥¥Ïä§Ïõ∞Î¶¨ÏïÑ_7: Í¥ÄÏ†àÌåîÌåî
+2024-08-02 00:57:22 - Searching for product by name: Í¥ÄÏ†àÌåîÌåî
+2024-08-02 00:57:22 - Product not found for name: Í¥ÄÏ†àÌåîÌåî
+2024-08-02 00:57:22 - Recommended product for ÍµøÎ∞îÎîî_Ïπ¥Î•¥ÎãàÌã¥_1000: Î≤†Îü¨ Îã§Ïö¥Ìïè
+2024-08-02 00:57:22 - Searching for product by name: Î≤†Îü¨ Îã§Ïö¥Ìïè
+2024-08-02 00:57:22 - Product not found for name: Î≤†Îü¨ Îã§Ïö¥Ìïè
+2024-08-02 00:57:22 - Recommended products for user test2: []
+2024-08-02 00:59:01 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 00:59:01 - Starting MedicApiApplication using Java 17.0.12 with PID 10700 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 00:59:01 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 00:59:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 00:59:02 - Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2024-08-02 00:59:03 - Tomcat initialized with port 8001 (http)
+2024-08-02 00:59:03 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:59:03 - Starting service [Tomcat]
+2024-08-02 00:59:03 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 00:59:03 - Initializing Spring embedded WebApplicationContext
+2024-08-02 00:59:03 - Root WebApplicationContext: initialization completed in 1302 ms
+2024-08-02 00:59:03 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 00:59:03 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 00:59:03 - HHH000026: Second-level cache disabled
+2024-08-02 00:59:03 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 00:59:03 - HikariPool-1 - Starting...
+2024-08-02 00:59:03 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23bd047f
+2024-08-02 00:59:03 - HikariPool-1 - Start completed.
+2024-08-02 00:59:03 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 00:59:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 00:59:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 00:59:04 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 00:59:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 00:59:05 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 00:59:05 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 00:59:05 - Started MedicApiApplication in 4.159 seconds (process running for 4.574)
+2024-08-02 00:59:09 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 00:59:09 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 00:59:09 - Completed initialization in 0 ms
+2024-08-02 00:59:09 - URI: [POST] /api/login | Headers: {content-type=application/json}
+2024-08-02 00:59:12 - URI: [GET] /api/products/best | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]}
+2024-08-02 00:59:25 - URI: [GET] /api/products/recommend | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]}
+2024-08-02 00:59:25 - User found: test2
+2024-08-02 00:59:25 - User supplement types: [Í¥ÄÏ†àÏÜîÎ£®ÏÖò_Î≥¥Ïä§Ïõ∞Î¶¨ÏïÑ_7, ÍµøÎ∞îÎîî_Ïπ¥Î•¥ÎãàÌã¥_1000]
+2024-08-02 00:59:25 - Recommended product for Í¥ÄÏ†àÏÜîÎ£®ÏÖò_Î≥¥Ïä§Ïõ∞Î¶¨ÏïÑ_7: ÌîÑÎ¶¨ÎØ∏ÏóÑ Í¥ÄÏ†àÌåîÌåî
+2024-08-02 00:59:25 - Searching for product by name: ÌîÑÎ¶¨ÎØ∏ÏóÑ Í¥ÄÏ†àÌåîÌåî
+2024-08-02 00:59:25 - Product found: ÌîÑÎ¶¨ÎØ∏ÏóÑ Í¥ÄÏ†àÌåîÌåî with review count: 0
+2024-08-02 00:59:25 - Recommended product for ÍµøÎ∞îÎîî_Ïπ¥Î•¥ÎãàÌã¥_1000: Î≤†Îü¨Îã§Ïö¥Ìïè
+2024-08-02 00:59:25 - Searching for product by name: Î≤†Îü¨Îã§Ïö¥Ìïè
+2024-08-02 00:59:25 - Product found: Î≤†Îü¨Îã§Ïö¥Ìïè with review count: 0
+2024-08-02 00:59:25 - Recommended products for user test2: [ProductSimpleResponseV2(id=2, imageUrl=ÌîÑÎ¶¨ÎØ∏ÏóÑ Í¥ÄÏ†àÌåîÌåî-20240731.png, name=ÌîÑÎ¶¨ÎØ∏ÏóÑ Í¥ÄÏ†àÌåîÌåî, normalPrice=100000, salePrice=47000, reviewCnt=0, tag=Í¥ÄÏ†à_ÎºàÍ±¥Í∞ï), ProductSimpleResponseV2(id=4, imageUrl=Î≤†Îü¨Îã§Ïö¥Ìïè-20240731.png, name=Î≤†Îü¨Îã§Ïö¥Ìïè, normalPrice=50000, salePrice=19800, reviewCnt=0, tag=Ï≤¥ÏßÄÎ∞©Í∞êÏÜå)]
+2024-08-02 00:59:59 - URI: [GET] /api/products/custom | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]}
+2024-08-02 01:00:02 - URI: [GET] /api/products/custom | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]} | Parameters: {sort=review}
+2024-08-02 01:00:04 - URI: [GET] /api/products/custom | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]} | Parameters: {sort=highprice}
+2024-08-02 01:00:08 - URI: [GET] /api/products/custom | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]} | Parameters: {sort=lowprice}
+2024-08-02 01:00:11 - URI: [GET] /api/products/custom | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]}
+2024-08-02 01:00:19 - URI: [GET] /api/image/name | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]}
+2024-08-02 01:00:22 - URI: [GET] /api/image/path | Session: {userId=9, userName=test2, userTags=[Í∏∞ÏñµÎ†•_Í∞úÏÑ†, ÌîºÎ∂ÄÍ±¥Í∞ï]}
+2024-08-02 01:09:40 - Could not detect default configuration classes for test class [org.lion.medicapi.MedicApiApplicationTests]: MedicApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02 01:09:40 - Found @SpringBootConfiguration org.lion.medicapi.MedicApiApplication for test class org.lion.medicapi.MedicApiApplicationTests
+2024-08-02 01:09:40 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 01:09:40 - Starting MedicApiApplicationTests using Java 17.0.12 with PID 17524 (started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 01:09:40 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 01:09:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 01:09:41 - Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2024-08-02 01:09:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 01:09:41 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 01:09:41 - HHH000026: Second-level cache disabled
+2024-08-02 01:09:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 01:09:42 - HikariPool-1 - Starting...
+2024-08-02 01:09:42 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7853363c
+2024-08-02 01:09:42 - HikariPool-1 - Start completed.
+2024-08-02 01:09:42 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 01:09:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 01:09:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:09:43 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 01:09:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 01:09:44 - Started MedicApiApplicationTests in 3.881 seconds (process running for 4.981)
+2024-08-02 01:09:44 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:09:44 - HikariPool-1 - Shutdown initiated...
+2024-08-02 01:09:44 - HikariPool-1 - Shutdown completed.
+2024-08-02 01:18:32 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 01:18:32 - Starting MedicApiApplication using Java 17.0.12 with PID 2560 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 01:18:32 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 01:18:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 01:18:33 - Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2024-08-02 01:18:33 - Tomcat initialized with port 8001 (http)
+2024-08-02 01:18:33 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:18:33 - Starting service [Tomcat]
+2024-08-02 01:18:33 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 01:18:33 - Initializing Spring embedded WebApplicationContext
+2024-08-02 01:18:33 - Root WebApplicationContext: initialization completed in 1277 ms
+2024-08-02 01:18:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 01:18:33 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 01:18:33 - HHH000026: Second-level cache disabled
+2024-08-02 01:18:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 01:18:34 - HikariPool-1 - Starting...
+2024-08-02 01:18:34 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fac18dc
+2024-08-02 01:18:34 - HikariPool-1 - Start completed.
+2024-08-02 01:18:34 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 01:18:35 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 01:18:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:18:35 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 01:18:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 01:18:35 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:18:36 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 01:18:36 - Started MedicApiApplication in 4.07 seconds (process running for 4.526)
+2024-08-02 01:18:38 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 01:18:38 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 01:18:38 - Completed initialization in 0 ms
+2024-08-02 01:18:38 - URI: [GET] /api/image/path
+2024-08-02 01:24:22 - Exception: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource product/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC%20%EA%B9%80%EC%A2%85%EA%B5%AD%20%EC%98%AC%EC%9D%B8%EC%9B%90%20%ED%8C%A8%ED%82%A4%EC%A7%80-20240731.png.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 01:24:22 - Exception: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 01:24:28 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 01:24:28 - Starting MedicApiApplication using Java 17.0.12 with PID 15020 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 01:24:28 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 01:24:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 01:24:29 - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2024-08-02 01:24:29 - Tomcat initialized with port 8001 (http)
+2024-08-02 01:24:29 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:24:29 - Starting service [Tomcat]
+2024-08-02 01:24:29 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 01:24:29 - Initializing Spring embedded WebApplicationContext
+2024-08-02 01:24:29 - Root WebApplicationContext: initialization completed in 1322 ms
+2024-08-02 01:24:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 01:24:30 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 01:24:30 - HHH000026: Second-level cache disabled
+2024-08-02 01:24:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 01:24:30 - HikariPool-1 - Starting...
+2024-08-02 01:24:30 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eb9c575
+2024-08-02 01:24:30 - HikariPool-1 - Start completed.
+2024-08-02 01:24:30 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 01:24:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 01:24:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:24:31 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 01:24:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 01:24:32 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:24:32 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 01:24:32 - Started MedicApiApplication in 4.286 seconds (process running for 4.787)
+2024-08-02 01:24:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 01:24:34 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 01:24:34 - Completed initialization in 0 ms
+2024-08-02 01:24:34 - Exception: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-02 01:28:39 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 01:28:39 - Starting MedicApiApplication using Java 17.0.12 with PID 16272 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 01:28:39 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 01:28:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 01:28:39 - Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2024-08-02 01:28:40 - Tomcat initialized with port 8001 (http)
+2024-08-02 01:28:40 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:28:40 - Starting service [Tomcat]
+2024-08-02 01:28:40 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 01:28:40 - Initializing Spring embedded WebApplicationContext
+2024-08-02 01:28:40 - Root WebApplicationContext: initialization completed in 1299 ms
+2024-08-02 01:28:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 01:28:40 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 01:28:40 - HHH000026: Second-level cache disabled
+2024-08-02 01:28:41 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 01:28:41 - HikariPool-1 - Starting...
+2024-08-02 01:28:41 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fac18dc
+2024-08-02 01:28:41 - HikariPool-1 - Start completed.
+2024-08-02 01:28:41 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 01:28:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 01:28:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:28:42 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 01:28:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 01:28:43 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:28:43 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 01:28:43 - Started MedicApiApplication in 4.129 seconds (process running for 4.587)
+2024-08-02 01:30:12 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 01:30:12 - Starting MedicApiApplication using Java 17.0.12 with PID 18208 (C:\Users\user\Documents\KmongProject\medic-api\build\classes\java\main started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 01:30:12 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 01:30:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 01:30:12 - Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2024-08-02 01:30:13 - Tomcat initialized with port 8001 (http)
+2024-08-02 01:30:13 - Initializing ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:30:13 - Starting service [Tomcat]
+2024-08-02 01:30:13 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02 01:30:13 - Initializing Spring embedded WebApplicationContext
+2024-08-02 01:30:13 - Root WebApplicationContext: initialization completed in 1276 ms
+2024-08-02 01:30:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 01:30:13 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 01:30:13 - HHH000026: Second-level cache disabled
+2024-08-02 01:30:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 01:30:14 - HikariPool-1 - Starting...
+2024-08-02 01:30:14 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ea07516
+2024-08-02 01:30:14 - HikariPool-1 - Start completed.
+2024-08-02 01:30:14 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 01:30:14 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 01:30:14 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:30:15 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 01:30:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 01:30:15 - Starting ProtocolHandler ["http-nio-8001"]
+2024-08-02 01:30:15 - Tomcat started on port 8001 (http) with context path '/'
+2024-08-02 01:30:15 - Started MedicApiApplication in 4.089 seconds (process running for 4.539)
+2024-08-02 01:30:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 01:30:20 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 01:30:20 - Completed initialization in 1 ms
+2024-08-02 01:30:20 - URI: [POST] /api/upload/productImage | Headers: {content-type=multipart/form-data; boundary=--------------------------527045111738299927557102}
+2024-08-02 01:30:34 - URI: [GET] /api/image/name
+2024-08-02 01:30:40 - URI: [GET] /api/image/path
+2024-08-02 01:31:40 - Could not detect default configuration classes for test class [org.lion.medicapi.MedicApiApplicationTests]: MedicApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02 01:31:40 - Found @SpringBootConfiguration org.lion.medicapi.MedicApiApplication for test class org.lion.medicapi.MedicApiApplicationTests
+2024-08-02 01:31:41 - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-02 01:31:41 - Starting MedicApiApplicationTests using Java 17.0.12 with PID 1476 (started by user in C:\Users\user\Documents\KmongProject\medic-api)
+2024-08-02 01:31:41 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 01:31:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 01:31:41 - Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2024-08-02 01:31:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 01:31:42 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 01:31:42 - HHH000026: Second-level cache disabled
+2024-08-02 01:31:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 01:31:42 - HikariPool-1 - Starting...
+2024-08-02 01:31:42 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@590dea35
+2024-08-02 01:31:42 - HikariPool-1 - Start completed.
+2024-08-02 01:31:43 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 01:31:43 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 01:31:43 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:31:44 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-02 01:31:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 01:31:45 - Started MedicApiApplicationTests in 3.903 seconds (process running for 4.99)
+2024-08-02 01:31:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 01:31:45 - HikariPool-1 - Shutdown initiated...
+2024-08-02 01:31:45 - HikariPool-1 - Shutdown completed.
