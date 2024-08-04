@@ -57,4 +57,8 @@ public class UserV2 {
         this.tagTypes = tagTypes;
         this.supplementTypes = supplementTypes;
     }
+
+    public void setTagTypes(List<TagType> tagTypes) {
+        this.tagTypes = tagTypes;
+    }
 }

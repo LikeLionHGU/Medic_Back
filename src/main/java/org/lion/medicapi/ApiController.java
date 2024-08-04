@@ -40,21 +40,11 @@ public class ApiController {
         return ResponseEntity.ok("success");
     }
 
-    // 태그 추가 (로그인 필요)
+    // 태그 변경 (로그인 필요)
     @PostMapping("/users/tags")
-    public ResponseEntity<List<TagType>> addTag(@RequestBody TagRequestV2 tagRequest, HttpSession session) {
+    public ResponseEntity<List<TagType>> updateTags(@RequestBody TagRequestV2 tagRequest, HttpSession session) {
         Long userId = (Long) session.getAttribute("userId");
-        TagType tag = TagType.valueOf(tagRequest.getTag());
-        List<TagType> updatedTags = apiService.addTag(userId, tag);
-        return ResponseEntity.ok(updatedTags);
-    }
-
-    // 태그 제거 (로그인 필요)
-    @DeleteMapping("/users/tags")
-    public ResponseEntity<List<TagType>> removeTag(@RequestBody TagRequestV2 tagRequest, HttpSession session) {
-        Long userId = (Long) session.getAttribute("userId");
-        TagType tag = TagType.valueOf(tagRequest.getTag());
-        List<TagType> updatedTags = apiService.removeTag(userId, tag);
+        List<TagType> updatedTags = apiService.updateTags(userId, tagRequest.getTags());
         return ResponseEntity.ok(updatedTags);
     }
 

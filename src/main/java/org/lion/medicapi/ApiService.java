@@ -99,40 +99,25 @@ public class ApiService {
         return response;
     }
 
-    // 태그 추가
+    // 태그 정보 변경
     @Transactional
-    public List<TagType> addTag(Long userId, TagType tagToAdd) {
+    public List<TagType> updateTags(Long userId, List<String> tags) {
         UserV2 user = userRepositoryV2.findById(userId)
                 .orElseThrow(() -> new ApiException(ErrorType.USER_NOT_FOUND_SPECIFIC));
 
-        List<TagType> tags = user.getTagTypes();
+        List<TagType> tagTypes = tags.stream()
+                .map(TagType::valueOf)
+                .distinct()
+                .collect(Collectors.toList());
 
-        if (tags.size() >= 3) {
+        if (tagTypes.size() > 3) {
             throw new ApiException(ErrorType.MAX_TAG_EXCEEDED);
         }
 
-        tags.add(tagToAdd);
+        user.setTagTypes(tagTypes);
         userRepositoryV2.save(user);
 
-        return tags;
-    }
-
-    // 태그 제거
-    @Transactional
-    public List<TagType> removeTag(Long userId, TagType tagToRemove) {
-        UserV2 user = userRepositoryV2.findById(userId)
-                .orElseThrow(() -> new ApiException(ErrorType.USER_NOT_FOUND_SPECIFIC));
-
-        List<TagType> tags = user.getTagTypes();
-
-        if (!tags.contains(tagToRemove)) {
-            throw new ApiException(ErrorType.NOT_HAVE_TAG);
-        }
-
-        tags.remove(tagToRemove);
-        userRepositoryV2.save(user);
-
-        return tags;
+        return tagTypes;
     }
 
     // 모든 상품 목록 조회
@@ -210,6 +195,7 @@ public class ApiService {
                             product.getTagType()
                     );
                 })
+                .limit(6) // 최대 6개까지 제한
                 .collect(Collectors.toList());
     }
 
