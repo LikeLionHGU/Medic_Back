@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "b0361755-6892-4a6f-a43e-d61a32c078e8",
-		"name": "Medic Server",
+		"_postman_id": "644dc7ec-e1b7-4ca1-b1c9-f8c223d563f1",
+		"name": "Medic Server Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "36650679"
+		"_exporter_id": "32535805"
 	},
 	"item": [
 		{
@@ -101,6 +101,50 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "이름 조회",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "52.78.188.110:8001/api/name",
+							"host": [
+								"52",
+								"78",
+								"188",
+								"110"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"name"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "태그 조회",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "52.78.188.110:8001/api/tags",
+							"host": [
+								"52",
+								"78",
+								"188",
+								"110"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"tags"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -115,6 +159,38 @@
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n  \"tags\": [\"기억력_개선\", \"관절_뼈건강\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "52.78.188.110:8001/api/users/tags",
+							"host": [
+								"52",
+								"78",
+								"188",
+								"110"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"users",
+								"tags"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "태그 변경",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tags\": [\"기억력_개선\"]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
