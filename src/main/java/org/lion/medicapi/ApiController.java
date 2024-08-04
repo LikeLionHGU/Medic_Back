@@ -19,6 +19,20 @@ public class ApiController {
 
     private final ApiService apiService;
 
+    // 로그인한 사용자의 닉네임 반환 (로그인 필요)
+    @GetMapping("/name")
+    public ResponseEntity<String> getNickname(HttpSession session) {
+        String nickname = apiService.getNickname((Long) session.getAttribute("userId"));
+        return ResponseEntity.ok(nickname);
+    }
+
+    // 로그인한 사용자의 태그 리스트 반환 (로그인 필요)
+    @GetMapping("/tags")
+    public ResponseEntity<List<TagType>> getUserTags(HttpSession session) {
+        List<TagType> tags = apiService.getUserTags((Long) session.getAttribute("userId"));
+        return ResponseEntity.ok(tags);
+    }
+
     // 회원가입
     @PostMapping("/signup")
     public ResponseEntity<String> signUp(@RequestBody SignUpRequestV2 signUpRequest) {
@@ -42,10 +56,10 @@ public class ApiController {
 
     // 태그 변경 (로그인 필요)
     @PostMapping("/users/tags")
-    public ResponseEntity<List<TagType>> updateTags(@RequestBody TagRequestV2 tagRequest, HttpSession session) {
+    public ResponseEntity<List<ProductSimpleResponseV2>> updateTags(@RequestBody TagRequestV2 tagRequest, HttpSession session) {
         Long userId = (Long) session.getAttribute("userId");
-        List<TagType> updatedTags = apiService.updateTags(userId, tagRequest.getTags());
-        return ResponseEntity.ok(updatedTags);
+        List<ProductSimpleResponseV2> updatedTagsProducts = apiService.updateTags(userId, tagRequest.getTags());
+        return ResponseEntity.ok(updatedTagsProducts);
     }
 
     // 모든 상품 목록 조회

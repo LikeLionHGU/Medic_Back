@@ -42,6 +42,20 @@ public class ApiService {
     private final ReviewRepositoryV2 reviewRepositoryV2;
     private final LikeRepositoryV2 likeRepositoryV2;
 
+    // 로그인한 사용자의 닉네임 반환
+    public String getNickname(Long userId) {
+        UserV2 user = userRepositoryV2.findById(userId)
+                .orElseThrow(() -> new ApiException(ErrorType.USER_NOT_FOUND_SPECIFIC));
+        return user.getName();
+    }
+
+    // 로그인한 사용자의 태그 리스트 반환
+    public List<TagType> getUserTags(Long userId) {
+        UserV2 user = userRepositoryV2.findById(userId)
+                .orElseThrow(() -> new ApiException(ErrorType.USER_NOT_FOUND_SPECIFIC));
+        return user.getTagTypes();
+    }
+
     // 회원가입
     @Transactional
     public void signUp(SignUpRequestV2 signUpRequest) {
@@ -99,9 +113,9 @@ public class ApiService {
         return response;
     }
 
-    // 태그 정보 변경
+    // 태그 변경
     @Transactional
-    public List<TagType> updateTags(Long userId, List<String> tags) {
+    public List<ProductSimpleResponseV2> updateTags(Long userId, List<String> tags) {
         UserV2 user = userRepositoryV2.findById(userId)
                 .orElseThrow(() -> new ApiException(ErrorType.USER_NOT_FOUND_SPECIFIC));
 
@@ -117,7 +131,8 @@ public class ApiService {
         user.setTagTypes(tagTypes);
         userRepositoryV2.save(user);
 
-        return tagTypes;
+
+        return listCustomProducts(tagTypes, "latest");
     }
 
     // 모든 상품 목록 조회
