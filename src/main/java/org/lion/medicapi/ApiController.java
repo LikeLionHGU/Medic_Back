@@ -73,9 +73,7 @@ public class ApiController {
 
     // 맞춤 상품 목록 조회 (로그인 필요)
     @GetMapping("/products/custom")
-    public ResponseEntity<List<ProductSimpleResponseV2>> listCustomProducts(
-            HttpSession session,
-            @RequestParam(required = false, defaultValue = "latest") String sort) {
+    public ResponseEntity<List<ProductSimpleResponseV2>> listCustomProducts(HttpSession session) {
         @SuppressWarnings("unchecked")
         List<TagType> userTags = (List<TagType>) session.getAttribute("userTags");
 
@@ -83,7 +81,7 @@ public class ApiController {
             return ResponseEntity.ok(List.of());
         }
 
-        List<ProductSimpleResponseV2> customizedProducts = apiService.listCustomProducts(userTags, sort);
+        List<ProductSimpleResponseV2> customizedProducts = apiService.listCustomProducts(userTags);
         return ResponseEntity.ok(customizedProducts);
     }
 

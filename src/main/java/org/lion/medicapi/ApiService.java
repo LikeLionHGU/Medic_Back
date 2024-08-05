@@ -131,8 +131,58 @@ public class ApiService {
         user.setTagTypes(tagTypes);
         userRepositoryV2.save(user);
 
+        // 각 태그에 대해 제품 목록을 랜덤으로 섞어서 추출
+        List<ProductSimpleResponseV2> selectedProducts = tagTypes.stream()
+                .flatMap(tag -> {
+                    List<ProductV2> productsByTag = productRepositoryV2.findByTagTypes(List.of(tag));
+                    Collections.shuffle(productsByTag);
+                    return productsByTag.stream()
+                            .map(product -> {
+                                Long reviewCount = reviewRepositoryV2.countByProductId(product.getId());
+                                return new ProductSimpleResponseV2(
+                                        product.getId(),
+                                        product.getImageUrl(),
+                                        product.getName(),
+                                        product.getNormalPrice(),
+                                        product.getSalePrice(),
+                                        reviewCount.intValue(),
+                                        product.getTagType()
+                                );
+                            });
+                })
+                .collect(Collectors.toList());
 
-        return listCustomProducts(tagTypes, "latest");
+        // 부족한 제품 수를 채우기 위해 추가로 섞기
+        Collections.shuffle(selectedProducts);
+        List<ProductSimpleResponseV2> finalProducts = selectedProducts.stream()
+                .limit(6)
+                .collect(Collectors.toList());
+
+        // 만약 6개가 안된다면 추가로 채우기
+        if (finalProducts.size() < 6) {
+            List<ProductV2> extraProducts = productRepositoryV2.findByTagTypes(tagTypes);
+            Collections.shuffle(extraProducts);
+            finalProducts.addAll(extraProducts.stream()
+                    .map(product -> {
+                        Long reviewCount = reviewRepositoryV2.countByProductId(product.getId());
+                        return new ProductSimpleResponseV2(
+                                product.getId(),
+                                product.getImageUrl(),
+                                product.getName(),
+                                product.getNormalPrice(),
+                                product.getSalePrice(),
+                                reviewCount.intValue(),
+                                product.getTagType()
+                        );
+                    })
+                    .filter(p -> !finalProducts.contains(p))
+                    .limit(6 - finalProducts.size())
+                    .collect(Collectors.toList()));
+        }
+
+        // 최종적으로 6개 제품 반환
+        Collections.shuffle(finalProducts);
+        return finalProducts.stream().limit(6).collect(Collectors.toList());
     }
 
     // 모든 상품 목록 조회
@@ -178,40 +228,59 @@ public class ApiService {
     }
 
     // 맞춤 상품 목록 조회
-    public List<ProductSimpleResponseV2> listCustomProducts(List<TagType> tags, String sort) {
-        List<ProductV2> products = productRepositoryV2.findByTagTypes(tags);
+    public List<ProductSimpleResponseV2> listCustomProducts(List<TagType> tags) {
+        // 각 태그에 대해 제품 목록을 랜덤으로 섞어서 추출
+        List<ProductSimpleResponseV2> selectedProducts = tags.stream()
+                .flatMap(tag -> {
+                    List<ProductV2> productsByTag = productRepositoryV2.findByTagTypes(List.of(tag));
+                    Collections.shuffle(productsByTag);
+                    return productsByTag.stream()
+                            .map(product -> {
+                                Long reviewCount = reviewRepositoryV2.countByProductId(product.getId());
+                                return new ProductSimpleResponseV2(
+                                        product.getId(),
+                                        product.getImageUrl(),
+                                        product.getName(),
+                                        product.getNormalPrice(),
+                                        product.getSalePrice(),
+                                        reviewCount.intValue(),
+                                        product.getTagType()
+                                );
+                            });
+                })
+                .collect(Collectors.toList());
 
-        // 정렬 로직 추가
-        switch (sort.toLowerCase()) {
-            case "review":
-                products.sort((p1, p2) -> Long.compare(reviewRepositoryV2.countByProductId(p2.getId()), reviewRepositoryV2.countByProductId(p1.getId())));
-                break;
-            case "highprice":
-                products.sort((p1, p2) -> Integer.compare(p2.getSalePrice(), p1.getSalePrice()));
-                break;
-            case "lowprice":
-                products.sort((p1, p2) -> Integer.compare(p1.getSalePrice(), p2.getSalePrice()));
-                break;
-            default:
-                products.sort(Comparator.comparing(ProductV2::getId, Comparator.nullsLast(Comparator.reverseOrder())));
-                break;
+        // 부족한 제품 수를 채우기 위해 추가로 섞기
+        Collections.shuffle(selectedProducts);
+        List<ProductSimpleResponseV2> finalProducts = selectedProducts.stream()
+                .limit(6)
+                .collect(Collectors.toList());
+
+        // 만약 6개가 안된다면 추가로 채우기
+        if (finalProducts.size() < 6) {
+            List<ProductV2> extraProducts = productRepositoryV2.findByTagTypes(tags);
+            Collections.shuffle(extraProducts);
+            finalProducts.addAll(extraProducts.stream()
+                    .map(product -> {
+                        Long reviewCount = reviewRepositoryV2.countByProductId(product.getId());
+                        return new ProductSimpleResponseV2(
+                                product.getId(),
+                                product.getImageUrl(),
+                                product.getName(),
+                                product.getNormalPrice(),
+                                product.getSalePrice(),
+                                reviewCount.intValue(),
+                                product.getTagType()
+                        );
+                    })
+                    .filter(p -> !finalProducts.contains(p))
+                    .limit(6 - finalProducts.size())
+                    .collect(Collectors.toList()));
         }
 
-        return products.stream()
-                .map(product -> {
-                    Long reviewCount = reviewRepositoryV2.countByProductId(product.getId());
-                    return new ProductSimpleResponseV2(
-                            product.getId(),
-                            product.getImageUrl(),
-                            product.getName(),
-                            product.getNormalPrice(),
-                            product.getSalePrice(),
-                            reviewCount.intValue(),
-                            product.getTagType()
-                    );
-                })
-                .limit(6) // 최대 6개까지 제한
-                .collect(Collectors.toList());
+        // 최종적으로 6개 제품 반환
+        Collections.shuffle(finalProducts);
+        return finalProducts.stream().limit(6).collect(Collectors.toList());
     }
 
     // BEST 상품 목록 조회
