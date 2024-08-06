@@ -386,6 +386,7 @@ public class ApiService {
                         .filter(review -> calculateAgeRange(review.getUser().getBirthDate()).equals(ageRange))
                         .collect(Collectors.toList());
                 break;
+            case "all":
             case "latest":
             default:
                 reviews.sort((r1, r2) -> r2.getReviewDate().compareTo(r1.getReviewDate()));
@@ -395,12 +396,13 @@ public class ApiService {
         List<ReviewResponseV2> reviewResponses = reviews.stream()
                 .map(review -> {
                     Long likeCount = likeRepositoryV2.countByReviewId(review.getId());
+                    String ageRange = calculateAgeRange(review.getUser().getBirthDate());
                     return new ReviewResponseV2(
                             review.getId(),
                             review.getUser().getName(),
                             review.getProduct().getName(),
                             review.getUser().getGenderType(),
-                            review.getUser().getBirthDate(),
+                            ageRange,
                             review.getStar(),
                             review.getContents(),
                             review.getPurchaseDate(),
@@ -420,19 +422,27 @@ public class ApiService {
         LocalDate birth;
         try {
             if (birthDate.length() == 6) {
-                birth = LocalDate.parse(birthDate, DateTimeFormatter.ofPattern("yyMMdd"));
+                int yearPrefix = (birthDate.charAt(0) >= '0' && birthDate.charAt(0) <= '3') ? 2000 : 1900;
+                int year = Integer.parseInt(birthDate.substring(0, 2));
+                int month = Integer.parseInt(birthDate.substring(2, 4));
+                int day = Integer.parseInt(birthDate.substring(4, 6));
+                birth = LocalDate.of(yearPrefix + year, month, day);
             } else if (birthDate.length() == 8) {
                 birth = LocalDate.parse(birthDate, DateTimeFormatter.ofPattern("yyyyMMdd"));
             } else {
-                throw new IllegalArgumentException("Invalid birthDate format");
+                throw new ApiException(ErrorType.INVALID_BIRTHDATE_FORMAT);
             }
         } catch (DateTimeParseException e) {
-            throw new IllegalArgumentException("Invalid birthDate format", e);
+            throw new ApiException(ErrorType.INVALID_BIRTHDATE_FORMAT);
         }
 
         int currentYear = LocalDate.now().getYear();
         int birthYear = birth.getYear();
         int age = currentYear - birthYear;
+
+        if (birth.plusYears(age).isAfter(LocalDate.now())) {
+            age--;
+        }
 
         if (age < 10) {
             return "10대 미만";

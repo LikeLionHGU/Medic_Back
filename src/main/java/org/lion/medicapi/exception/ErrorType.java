@@ -33,7 +33,8 @@ public enum ErrorType {
     LIKE_NOT_FOUND("E019", "해당 좋아요를 찾을 수 없습니다."),
 
     SUPPLEMENT_TYPE_NOT_FOUND("E020", "해당 보충제 유형을 찾을 수 없습니다."),
-    TOO_MANY_SUPPLEMENT_TYPES("E021", "보충제 유형은 최대 3개까지 입력 가능합니다.");
+    TOO_MANY_SUPPLEMENT_TYPES("E021", "보충제 유형은 최대 3개까지 입력 가능합니다."),
+    INVALID_BIRTHDATE_FORMAT("E022", "잘못된 생년월일 형식입니다. 6자리(yymmdd) 또는 8자리(yyyyMMdd) 형식으로 입력해 주세요.");
 
     private final String code;
     private final String message;
